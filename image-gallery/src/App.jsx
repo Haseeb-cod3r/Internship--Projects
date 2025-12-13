@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Card from "./components/card";
+import Card from "./components/Card";
 import Header from "./components/Header";
 
 const ACCESS_KEY = "M8ajvgpqzqF8InmHfQ5_BH7h4fnxQ89V0KTj256tcxw";
