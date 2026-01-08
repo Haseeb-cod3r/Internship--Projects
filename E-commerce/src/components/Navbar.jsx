@@ -41,7 +41,7 @@ const Navbar = () => {
 
       {user?.role === UserRole.ADMIN && (
         <Link
-          to="/"
+          to="/admin"
           onClick={() => setIsMenuOpen(false)}
           className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition font-medium"
         >
@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {user?.role === UserRole.VENDOR && (
         <Link
-          to="/"
+          to="/vendor"
           onClick={() => setIsMenuOpen(false)}
           className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition font-medium"
         >
@@ -116,7 +116,7 @@ const Navbar = () => {
               </>
             ) : (
               <Link
-                to="/"
+                to="/login"
                 className="bg-indigo-600 text-white px-5 py-2 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition shadow-md shadow-indigo-200"
               >
                 Login
