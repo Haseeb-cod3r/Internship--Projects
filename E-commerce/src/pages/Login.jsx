@@ -34,7 +34,7 @@ const Login = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full border border-gray-300 rounded-lg p-3 outline-none focus:ring-2 focus:ring-indigo-500"
-              placeholder="e.g. John Doe"
+              placeholder="Enter your name"
             />
           </div>
 
@@ -66,7 +66,7 @@ const Login = () => {
           </button>
 
           <div className="text-center text-xs text-gray-400">
-            * This is a simulated login for development purposes.
+            This is a simulated login for development purposes.
           </div>
         </form>
       </div>
